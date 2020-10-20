@@ -12,7 +12,7 @@ import (
 	"github.com/qorx/qor"
 	"github.com/qorx/qor/utils"
 	"github.com/qorx/roles"
-	"github.com/qorx/validations"
+	// "github.com/qorx/validations"
 )
 
 // Metaor interface
@@ -256,7 +256,7 @@ func setupSetter(meta *Meta, fieldName string, record interface{}) {
 			defer func() {
 				if r := recover(); r != nil {
 					debug.PrintStack()
-					context.AddError(validations.NewError(record, meta.Name, fmt.Sprintf("Failed to set Meta %v's value with %v, got %v", meta.Name, metaValue.Value, r)))
+					// context.AddError(validations.NewError(record, meta.Name, fmt.Sprintf("Failed to set Meta %v's value with %v, got %v", meta.Name, metaValue.Value, r)))
 				}
 			}()
 
