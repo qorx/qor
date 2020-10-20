@@ -25,30 +25,30 @@ QOR is not a "boxed turnkey solution". You need proper coding skills to use it. 
 
 ## The modules
 
-* [Admin](https://github.com/qor/admin) - The core part of QOR system, will generate an admin interface and RESTFul API for you to manage your data
+* [Admin](https://github.com/qorx/admin) - The core part of QOR system, will generate an admin interface and RESTFul API for you to manage your data
 
-* [Publish](https://github.com/qor/publish) - Providing a staging environment for all content changes to be reviewed before being published to the live system
+* [Publish](https://github.com/qorx/publish) - Providing a staging environment for all content changes to be reviewed before being published to the live system
 
-* [Transition](https://github.com/qor/transition) - A configurable State Machine: define states, events (eg. pay order), and validation constraints for state transitions
+* [Transition](https://github.com/qorx/transition) - A configurable State Machine: define states, events (eg. pay order), and validation constraints for state transitions
 
-* [Media Library](https://github.com/qor/media_library) - Asset Management with support for several cloud storage backends and publishing via a CDN
+* [Media Library](https://github.com/qorx/media_library) - Asset Management with support for several cloud storage backends and publishing via a CDN
 
-* [Worker](https://github.com/qor/worker) (Batch processing) - A process scheduler
+* [Worker](https://github.com/qorx/worker) (Batch processing) - A process scheduler
 
-* [Exchange](https://github.com/qor/exchange) - Data exchange with other business applications using CSV or Excel data
+* [Exchange](https://github.com/qorx/exchange) - Data exchange with other business applications using CSV or Excel data
 
-* [Internationalization](https://github.com/qor/i18n) (i18n) - Managing and (inline) editing of translations
+* [Internationalization](https://github.com/qorx/i18n) (i18n) - Managing and (inline) editing of translations
 
-* [Localization](https://github.com/qor/l10n) (l10n) - Manage DB-backed models on per-locale basis, with support for defining/editing localizable attributes, and locale-based querying
+* [Localization](https://github.com/qorx/l10n) (l10n) - Manage DB-backed models on per-locale basis, with support for defining/editing localizable attributes, and locale-based querying
 
-* [Roles](https://github.com/qor/roles) - Access Control
+* [Roles](https://github.com/qorx/roles) - Access Control
 
 * And more [https://github.com/qor](https://github.com/qor)
 
 ## Live DEMO
 
 * Live Demo [http://demo.getqor.com/admin](http://demo.getqor.com/admin)
-* Source Code of Live Demo [https://github.com/qor/qor-example](https://github.com/qor/qor-example)
+* Source Code of Live Demo [https://github.com/qorx/qor-example](https://github.com/qorx/qor-example)
 
 ## Frontend Development
 

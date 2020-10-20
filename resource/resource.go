@@ -5,9 +5,9 @@ import (
 	"reflect"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/qor"
-	"github.com/qor/qor/utils"
-	"github.com/qor/roles"
+	"github.com/qorx/qor"
+	"github.com/qorx/qor/utils"
+	"github.com/qorx/roles"
 )
 
 // Resourcer interface
